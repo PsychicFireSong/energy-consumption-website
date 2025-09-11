@@ -1,0 +1,72 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #2c3e50; /* A dark blue, change if logo has other colors */
+    color: white;
+    padding: 10px 20px;
+    border-bottom: 4px solid #1abc9c; /* A teal/green color */
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+}
+
+#main-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#main-nav ul li {
+    margin-left: 20px;
+}
+
+#main-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Mouse over feedback */
+#main-nav ul li a:hover {
+    background-color: #1abc9c;
+}
+
+/* Feedback for current page */
+#main-nav ul li a.active {
+    background-color: #16a085; /* A slightly darker green */
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    min-height: calc(100vh - 160px); /* Full height minus header and footer */
+}
+
+/* Footer */
+footer {
+    background-color: #34495e; /* Another dark blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
