@@ -24,12 +24,28 @@
             <p>Televisions are a common household appliance, and their energy consumption can vary significantly based on technology (e.g., LED, OLED, QLED), screen size, and usage patterns.</p>
             <p>In Australia, the Energy Rating Label helps consumers compare the energy efficiency of different models. Look for a higher star rating to choose a more efficient television.</p>
         </section>
+
+        <section id="tv-info">
+            <h1>Which TV Brands Lead in Energy Efficiency?</h1>
+            <p>When choosing a new television, energy efficiency is a key factor that can save you money and reduce your environmental impact. The chart below shows which brands offer the most models with high energy star ratings in the Australian market. A higher bar means more high-efficiency options available from that brand.</p>
+            
+            <!-- Container for the D3 bar chart -->
+            <div class="responsive-svg-container"></div>
+
+            <h2>What This Means for You</h2>
+            <p>As the chart illustrates, brands like Samsung, LG, and Hisense offer a wide variety of energy-efficient models, giving you plenty of choices. While this chart highlights the number of efficient models, it's still important to check the specific energy rating label on any TV you consider buying.</p>
+            <p>Use this as a starting point to identify brands that prioritize efficiency, but always verify the details for the specific model you're interested in.</p>
+        </section>
     </main>
 
     <footer>
         <p>&copy; 2025 Lu Min Yeu | GenAI acknowledgement: This project was created with the assistance of an AI.</p>
     </footer>
 
+    <!-- D3 library and chart scripts -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="t04-4-load.js"></script> <!-- loads CSV, then calls createBarChart -->
+    <script src="t04-5-bars.js"></script> <!-- defines createBarChart -->
     <script src="script.js"></script>
 </body>
 </html>
